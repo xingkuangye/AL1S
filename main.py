@@ -2,7 +2,7 @@ from unittest import case
 
 from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
-from astrbot.api.utils import logger
+from astrbot.api import logger
 import random
 
 @register("md超级测试", "星星旁の旷野", "毁灭世界", "1.0.0")
