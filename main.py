@@ -78,5 +78,5 @@ class MyPlugin(Star):
         logger.info("正在获取随机光环图片...")
         random_num = random.randint(1, 138)
         logger.info(f"获取到随机光环图片: {random_num}")
-        yield event.plain_result(f"# 邦邦咔邦！\n老师，你要的随机光环图来啦！\n这是{halo_students[random_num]}！\n![随机光环 #350px #350px](https://xingkuangye-public.oss-cn-beijing.aliyuncs.com/halo/{random_num}.png)")
+        yield event.plain_result(f"# 邦邦咔邦！\n老师，你要的随机光环图来啦！\n这是**{halo_students[random_num]}**的光环！\n![随机光环 #350px #350px](https://xingkuangye-public.oss-cn-beijing.aliyuncs.com/halo/{random_num}.png)")
 
